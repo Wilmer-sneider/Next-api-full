@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1>hola mundo de nuevo</h1>;
+  return <h1>hola mundo en nueva rama</h1>;
 }
