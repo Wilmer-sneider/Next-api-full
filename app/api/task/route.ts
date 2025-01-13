@@ -22,22 +22,3 @@ export async function POST(reques: Request) {
 
   return NextResponse.json(body);
 }
-
-export async function PUT(request: Request) {
-  const body = await request.json();
-  const { id, title, description } = body;
-
-  const taskIndex = task.findIndex((task) => task.id === id);
-
-  /*   if (taskIndex === -1) {
-    return NextResponse.json({ error: "Task not found" }, { status: 404 });
-  } */
-
-  task[taskIndex] = {
-    ...task[taskIndex],
-    title: title,
-    description: description,
-  };
-
-  return NextResponse.json(task[taskIndex]);
-}
