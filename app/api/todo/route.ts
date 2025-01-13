@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+/* import { NextResponse } from "next/server";
 
 export async function POST(request) {
   const body = await request.json();
@@ -8,3 +8,4 @@ export async function POST(request) {
     data: body,
   });
 }
+ */

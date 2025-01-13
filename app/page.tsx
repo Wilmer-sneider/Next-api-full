@@ -1,3 +1,5 @@
+import ObtenerTask from "./components/ObtenerTask";
+
 export default function HomePage() {
-  return <h1>otro cambio ya ultimo de nuevo</h1>;
+  return <ObtenerTask />;
 }
