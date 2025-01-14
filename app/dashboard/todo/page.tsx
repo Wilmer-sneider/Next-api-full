@@ -1,3 +1,4 @@
+import Login from "@/app/components/Login";
 import PruebaEnsayo from "../prueba/page";
 
 export default function TodoPage() {
@@ -7,6 +8,7 @@ export default function TodoPage() {
     <div>
       <h1>{nombre}</h1>
       <PruebaEnsayo />
+      <Login />
     </div>
   );
 }

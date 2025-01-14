@@ -1,5 +1,9 @@
-import { redirect } from "next/navigation";
+import MainPage from "./components/MainPage";
 
 export default function HomePage() {
-  redirect("/dashboard/todo");
+  return (
+    <>
+      <MainPage />
+    </>
+  );
 }
