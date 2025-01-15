@@ -1,8 +1,7 @@
-const PruebaEnsayo = () => {
+export default function PruebaPage() {
   return (
     <div>
-      <h2>hola desde la prueba</h2>
+      <h1>PruebaPage</h1>
     </div>
   );
-};
-export default PruebaEnsayo;
+}
